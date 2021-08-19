@@ -48,7 +48,7 @@ function setup() {
   obstaclesGroup = createGroup();
   cloudsGroup = createGroup();
   
-  console.log("Hello" + 5);
+  console.log("Hola" + 5);
   
   trex.setCollider("circle",0,0,40);
   trex.debug = true
@@ -59,9 +59,9 @@ function setup() {
 function draw() {
   background(180);
   //displaying score
-  text("Score: "+ score, 500,50);
+  text("Puntuación : "+ score, 500,50);
   
-  console.log("this is ",gameState)
+  console.log("esto es  ",gameState)
   
   
   if(gameState === PLAY){
